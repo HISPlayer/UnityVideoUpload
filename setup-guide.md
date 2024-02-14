@@ -29,7 +29,7 @@ At the upper side of the Unity screen, open the window **Tools > HISPlayer > Upl
 <img width="650" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/66fad0d0-6ca1-4983-b018-d8fe60684bf4">
 </p>
 
-It will open the HISPlayer Upload Video configuration window.
+It will open the HISPlayer Video Upload configuration window.
 
 <p align="center">
 <img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/52f9d871-43cc-4bad-8053-81d14fa7aa09">
