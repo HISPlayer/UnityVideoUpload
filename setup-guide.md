@@ -102,6 +102,6 @@ After pasting the new generated URL, you may run your project through the Unity 
 
 ## 4. Video Guide
 
-Please refer to the following video guide to set-up HISPlayer Video Upload
+Please refer to the following video guide to use HISPlayer Video Upload
 
 [![Watch the video](https://img.youtube.com/vi/OEbIV7PW39w/sddefault.jpg)](https://youtu.be/OEbIV7PW39w)
