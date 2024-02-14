@@ -43,7 +43,7 @@ Choose the streaming protocol **HLS** or **DASH** by selecting it from the dropd
 <img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/3b8d3189-afd0-43f3-a235-be36614336ad">
 </p>
 
-Click on the Upload Video button. It will open a window to select the video file that you wish to upload. 
+Click on the **Upload Video** button. It will open a window to select the video file that you wish to upload. 
 
 <p align="center">
 <img width="650" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/b976d6cd-b555-418f-abb2-7145ef43ebcc">
