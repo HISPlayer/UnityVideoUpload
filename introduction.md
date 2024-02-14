@@ -10,5 +10,3 @@ HISPlayer Video Upload is a feature in HISPlayer SDK for Unity to upload and hos
 * HISPlayer Sample (optional)
 
 * Video file
-  * mp4
-  * etc
