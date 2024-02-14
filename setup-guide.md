@@ -7,6 +7,8 @@ Getting started with HISPlayer Video Upload consists of implementing the followi
 
 3. Using the Stream URL
 
+4. Video Guide
+
 ## 1. Import HISPlayerSDK
 
 Make sure the HISPlayer SDK has been imported to your Unity project. 
@@ -98,5 +100,8 @@ After pasting the new generated URL, you may run your project through the Unity 
 <img width="650" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/75241072-c720-4809-96a5-b697052a666e">
 </p>
 
+## 4. Video Guide
 
+Please refer to the following video guide to set-up HISPlayer Video Upload
 
+[![Watch the video](https://img.youtube.com/vi/OEbIV7PW39w/sddefault.jpg)](https://youtu.be/OEbIV7PW39w)
