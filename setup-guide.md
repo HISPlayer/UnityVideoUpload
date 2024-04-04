@@ -34,17 +34,28 @@ At the upper side of the Unity screen, open the window **Tools > HISPlayer > Upl
 It will open the HISPlayer Video Upload configuration window.
 
 <p align="center">
-<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/52f9d871-43cc-4bad-8053-81d14fa7aa09">
+<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/dd7a66ed-1c66-45c0-918b-b70e0dbba9ea">
 </p>
+
+### Access Token
+Access token is a unique identifier to use the HISPlayer Video Upload feature. The access token is provided when you have registered the HISPlayer dashboard account. Please input the token in the **Access Token** field.
+If invalid access token is inputted, it will throw an error.
+
+### Category Key
+Category key is a unique identifier assigned to each group of media files. The category key is provided when you have registered the HISPlayer dashboard account. Please input the key in the **Category Key** field.
+If invalid category key is inputted, it will throw an error.
+
+### Streaming Protocol
 
 Choose the streaming protocol **HLS** or **DASH** by selecting it from the dropdown menu. 
 * Supported platforms for HLS : Android, iOS, WebGL, Windows, macOS.
 * Supported platforms for DASH : Android, WebGL, Windows.
 
 <p align="center">
-<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/3b8d3189-afd0-43f3-a235-be36614336ad">
+<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/e7efe523-8abf-45b7-a077-a50d9690283b">
 </p>
 
+### Upload Video
 Click on the **Upload Video** button. It will open a window to select the video file that you wish to upload. 
 
 <p align="center">
@@ -55,14 +66,16 @@ After selecting the video file, it will start uploading to the server. The video
 The whole process will take some time, please wait until the **Upload successful** message appears. Progress bar will be added in the next release. 
 You may check the status message in the **Status** field of the HISPlayer Upload Video Window, or in the Unity console.
 
+### Get the Stream URL
+
 After **Upload successful** message has appeared, you will find the generated stream URL in the **Generated Stream URL** field or in the Unity console. 
 
 <p align="center">
-<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/f1ff9d92-6b98-4287-87dc-f12703bd2d29">
+<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/94fe35fa-9e41-45c7-bbea-c5433557fc13">
 </p>
 
 <p align="center">
-<img width="650" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/e8fd9c67-15e3-415c-98be-d6b74174b9ed">
+<img width="650" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/20cd7722-4cdc-4a2d-a4df-8232ec7449ec">
 </p>
 
 Click the **Copy** button to copy the URL to the clipboard. 
@@ -70,7 +83,7 @@ Click the **Copy** button to copy the URL to the clipboard.
 Below is the generated stream URL example : 
 
 ```
-https://content.hisplayer.com/getmedia/master.m3u8?contentKey=5C5nAbSM&protocol=hls
+https://content.hisplayer.com/getmedia/master.m3u8?contentKey=WOhxSoCl&protocol=hls
 ```
 
 ## 3. Using the Stream URL
