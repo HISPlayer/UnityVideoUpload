@@ -1,5 +1,9 @@
 # HISPlayer Video Upload Release Notes
 
+### Version 4.1.0
+##### April 30, 2023
+- [**Added**] HISPlayer Dashboard integration.
+
 ### Version 4.0.1_Beta
 ##### February 14, 2023
 - [**Added**] HLS and DASH streaming protocol option.
