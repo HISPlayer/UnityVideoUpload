@@ -34,16 +34,22 @@ At the upper side of the Unity screen, open the window **Tools > HISPlayer > Upl
 It will open the HISPlayer Video Upload configuration window.
 
 <p align="center">
-<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/dd7a66ed-1c66-45c0-918b-b70e0dbba9ea">
+<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/041506fb-dc64-4bb0-9bf4-33512d6613d9">
 </p>
 
-### Access Token
-Access token is a unique identifier to use the HISPlayer Video Upload feature. The access token is provided when you have registered the HISPlayer dashboard account. Please input the token in the **Access Token** field.
-If invalid access token is inputted, it will throw an error.
+### HISPlayer Dashboard
+This will direct you to the main HISPlayer Dashboard webpage. If you have not created an account yet, please create a new account on the HISPlayer Dashboard webpage by registering your email address.
 
-### Category Key
-Category key is a unique identifier assigned to each group of media files. The category key is provided when you have registered the HISPlayer dashboard account. Please input the key in the **Category Key** field.
-If invalid category key is inputted, it will throw an error.
+### Email
+The email address of your account that you have registered on HISPlayer Dashboard webpage. Please input the email address in the **Email** field.
+If invalid email address is inputted, it will throw an error.
+
+### Password
+The password of your account that you have registered on HISPlayer Dashboard webpage. Please input the password in the **Password** field.
+If invalid password is inputted, it will throw an error.
+
+### Video Title
+The title of the video that you will upload. You may input any text.
 
 ### Streaming Protocol
 
@@ -52,7 +58,7 @@ Choose the streaming protocol **HLS** or **DASH** by selecting it from the dropd
 * Supported platforms for DASH : Android, WebGL, Windows.
 
 <p align="center">
-<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/e7efe523-8abf-45b7-a077-a50d9690283b">
+<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/8a3ca8c8-d1ed-479f-b48b-725edd284e95">
 </p>
 
 ### Upload Video
@@ -63,19 +69,16 @@ Click on the **Upload Video** button. It will open a window to select the video 
 </p>
 
 After selecting the video file, it will start uploading to the server. The video content will be transcoded and published automatically. 
-The whole process will take some time, please wait until the **Upload successful** message appears. Progress bar will be added in the next release. 
-You may check the status message in the **Status** field of the HISPlayer Upload Video Window, or in the Unity console.
+The whole process will take some time, please wait until the **Upload successful** message appears.
+You may check the status message in the **Status** field of the HISPlayer Upload Video Window, or in the Unity console. 
+The progress bar indicates the overall video uploading, transcoding and publishing progress percentage. 
 
 ### Get the Stream URL
 
-After **Upload successful** message has appeared, you will find the generated stream URL in the **Generated Stream URL** field or in the Unity console. 
+After **Upload successful** message has appeared, you will find the generated stream URL in the **Generated Stream URL** field or in the Unity editor console. 
 
 <p align="center">
-<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/94fe35fa-9e41-45c7-bbea-c5433557fc13">
-</p>
-
-<p align="center">
-<img width="650" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/20cd7722-4cdc-4a2d-a4df-8232ec7449ec">
+<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/495e2435-6e6e-405b-839c-95d7b698d647">
 </p>
 
 Click the **Copy** button to copy the URL to the clipboard. 
@@ -83,7 +86,7 @@ Click the **Copy** button to copy the URL to the clipboard.
 Below is the generated stream URL example : 
 
 ```
-https://content.hisplayer.com/getmedia/master.m3u8?contentKey=WOhxSoCl&protocol=hls
+https://api.hisplayer.com/media/master.m3u8?contentKey=AMqO1qIq
 ```
 
 ## 3. Using the Stream URL
@@ -95,23 +98,21 @@ Before using the generated stream URL, make sure that HISPlayer SDK has been con
 * Windows : https://hisplayer.github.io/UnityWindows-SDK/#/setup-guide?id=_12-configure-unity-for-windows
 * MacOS : https://hisplayer.github.io/UnityMacOS-SDK/#/setup-guide?id=_12-configure-unity-for-macos
 
-If you use [**HISPlayer Sample**](https://downloads.hisplayer.com/Unity/AllPlatforms/HISPlayer_Sample.unitypackage), please make sure the sample has been set-up properly : 
-* Open HISPlayerSample/Assets/Scenes/**HISPlayerSample.unity**
+If you use **HISPlayer Sample**, please make sure the sample has been set-up properly : 
+* Open Assets/HISPlayerSample/Scenes/**HISPlayerSample.unity**
 * Import TextMesh Pro Essential
-* Input the license key through the Inspector Window. **StreamController** game object -> **HISPlayerSample** component -> **License Key**
+* Input the license key through the Inspector Window. **HISPlayerController** game object -> **HISPlayerController** component -> **License Key**
 
 To change the default video URL using the new generated URL, go to 
-**StreamController** game object > Inspector Window > **HISPlayerSample** (Script) > **HISPlayer Attributes** > **MultiStreamProperties** > **Url** > Replace the value with the new generated URL that you have copied previously.
+**HISPlayerController** game object > Inspector Window > **HISPlayerController** (Script) > **HISPlayer Attributes** > **MultiStreamProperties** > **Url** > Replace the value with the new generated URL that you have copied previously.
 
 <p align="center">
-<img width="100%" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/c83a0e4b-13bf-488d-8bb8-73fe52eafc08">
+<img width="100%" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/2c9187f0-5a59-4b3d-8379-98ef070a3a1a">
 </p>
 
 After pasting the new generated URL, you may run your project through the Unity Editor or build your project targeting your desired platform (Android/iOS/WebGL/Windows/macOS). 
 
-<p align="center">
-<img width="650" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/75241072-c720-4809-96a5-b697052a666e">
-</p>
+For more details about using HISPlayer Sample, please refer to the following documentation [**HISPlayer Sample**](https://hisplayer.github.io/UnitySamples/#/hisplayer-sample)
 
 ## 4. Video Guide
 
