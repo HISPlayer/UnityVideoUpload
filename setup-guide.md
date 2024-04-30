@@ -3,11 +3,9 @@ Getting started with HISPlayer Video Upload consists of implementing the followi
 
 1. Import HISPlayer SDK 
    
-2. HISPlayer Video Upload Window
+2. Configure HISPlayer Video Upload Window
 
-3. Using the Stream URL
-
-4. Video Guide
+3. Use the Stream URL
 
 ## 1. Import HISPlayerSDK
 
@@ -23,7 +21,7 @@ Select the package of HISPlayer SDK and import it.
 
 <br>
 
-## 2. HISPlayer Video Upload Window
+## 2. Configure HISPlayer Video Upload Window
 
 At the upper side of the Unity screen, open the window **Tools > HISPlayer > Upload Video**
 
@@ -89,7 +87,7 @@ Below is the generated stream URL example :
 https://api.hisplayer.com/media/master.m3u8?contentKey=AMqO1qIq
 ```
 
-## 3. Using the Stream URL
+## 3. Use the Stream URL
 
 Before using the generated stream URL, make sure that HISPlayer SDK has been configured following your target platform. Please refer to the following documentation : 
 * Android : https://hisplayer.github.io/UnityAndroid-SDK/#/setup-guide?id=_12-configure-unity-for-android
@@ -114,7 +112,7 @@ After pasting the new generated URL, you may run your project through the Unity 
 
 For more details about using HISPlayer Sample, please refer to the following documentation [**HISPlayer Sample**](https://hisplayer.github.io/UnitySamples/#/hisplayer-sample)
 
-## 4. Video Guide
+## Video Guide
 
 Please refer to the following video guide to use HISPlayer Video Upload
 
