@@ -81,12 +81,6 @@ After **Upload successful** message has appeared, you will find the generated st
 
 Click the **Copy** button to copy the URL to the clipboard. 
 
-Below is the generated stream URL example : 
-
-```
-https://api.hisplayer.com/media/master.m3u8?contentKey=AMqO1qIq
-```
-
 ## 3. Use the Stream URL
 
 Before using the generated stream URL, make sure that HISPlayer SDK has been configured following your target platform. Please refer to the following documentation : 
