@@ -9,6 +9,7 @@ Getting started with HISPlayer Video Upload consists of implementing the followi
 
 ## 1. Import HISPlayerSDK
 
+Video Upload feature is supported from **HISPlayer SDK v4.0.0 and above**.
 Make sure the HISPlayer SDK has been imported to your Unity project. 
 Importing the package is the same as importing other normal packages in Unity. 
 Select the package of HISPlayer SDK and import it.
