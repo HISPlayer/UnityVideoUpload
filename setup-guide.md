@@ -38,10 +38,6 @@ It will open the HISPlayer Video Upload configuration window.
 ### HISPlayer Dashboard
 This will direct you to the main HISPlayer Dashboard webpage. If you have not created an account yet, please create a new account on the HISPlayer Dashboard webpage by clicking "Sign up". 
 
-<p align="center">
-<img src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/0e5b7ae6-9713-4a8e-84c8-02460a276dd6">
-</p>
-
 Please register your name, email address and password. After signing up, you will need to confirm for the email address verification.
 
 ### Email
