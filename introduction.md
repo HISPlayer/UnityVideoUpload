@@ -11,3 +11,4 @@ HISPlayer Video Upload feature is available from HISPlayer SDK v.4.0.0 and above
 * HISPlayer Sample (optional)
 
 * Video file
+  * Size limit: 500MB
