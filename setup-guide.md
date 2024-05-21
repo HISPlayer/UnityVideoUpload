@@ -110,7 +110,7 @@ For more details about using HISPlayer Sample, please refer to the following doc
 
 ## HISPlayer Dashboard
 
-You can verify the videos that have been uploaded on HISPlayer Dashboard. Please open https://dashboard.hisplayer.com/ with your browser, or you can click on **HISPlayer Dashboard** button on the [HISPlayer Video Upload Window](#2-hisplayer-video-upload-window). 
+You can verify the videos that have been uploaded on HISPlayer Dashboard. Please open https://dashboard.hisplayer.com/ with your browser, or you can click on **HISPlayer Dashboard** button on the [HISPlayer Video Upload Window](https://hisplayer.github.io/UnityVideoUpload/#/setup-guide?id=_2-hisplayer-video-upload-window). 
 
 Input your email and password and click **Sign in**.
 
