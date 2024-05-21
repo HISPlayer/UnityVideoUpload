@@ -36,7 +36,7 @@ It will open the HISPlayer Video Upload configuration window.
 </p>
 
 ### HISPlayer Dashboard
-This button will direct you to the main HISPlayer Dashboard webpage. If you have not created an account yet, please create a new account on the HISPlayer Dashboard webpage by clicking **Sign up**. 
+This button will direct you to the main HISPlayer Dashboard webpage, or you can open https://dashboard.hisplayer.com/ with your browser. If you have not created an account yet, please create a new account on the HISPlayer Dashboard webpage by clicking **Sign up**. It is mandatory to create an account before using HISPlayer Video Upload feature.
 
 Please register your name, email address and password. After signing up, you will need to confirm for the email address verification.
 
