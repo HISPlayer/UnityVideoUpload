@@ -3,7 +3,7 @@ Getting started with HISPlayer Video Upload consists of implementing the followi
 
 1. Import HISPlayer SDK 
    
-2. Configure HISPlayer Video Upload Window
+2. HISPlayer Video Upload Window
 
 3. Use the Stream URL
 
@@ -21,7 +21,7 @@ Select the package of HISPlayer SDK and import it.
 
 <br>
 
-## 2. Configure HISPlayer Video Upload Window
+## 2. HISPlayer Video Upload Window
 
 At the upper side of the Unity screen, open the window **Tools > HISPlayer > Upload Video**
 
@@ -111,6 +111,23 @@ To change the default video URL using the new generated URL, go to
 After pasting the new generated URL, you may run your project through the Unity Editor or build your project targeting your desired platform (Android/iOS/WebGL/Windows/macOS). 
 
 For more details about using HISPlayer Sample, please refer to the following documentation [**HISPlayer Sample**](https://hisplayer.github.io/UnitySamples/#/hisplayer-sample)
+
+## HISPlayer Dashboard
+
+You can verify the videos that have been uploaded on HISPlayer Dashboard. Please open https://dashboard.hisplayer.com/ with your browser, or you can click on **HISPlayer Dashboard** button on the [HISPlayer Video Upload Window](#2-hisplayer-video-upload-window). 
+
+Input your email and password and click **Sign in**.
+
+<p align="center">
+<img width="100%" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/d0b5f7a7-fafc-4be0-aca4-4aa992070df1">
+</p>
+
+After sign in, you can check all the videos that have been uploaded. You can click on the video **ID** to check the generated HLS and DASH URLs and the video stream preview.
+
+<p align="center">
+<img width="100%" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/8ec09f7c-c318-42bc-882c-9c7fdca7ccb0">
+</p>
+
 
 ## Video Guide
 
