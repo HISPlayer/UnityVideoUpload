@@ -4,6 +4,8 @@ HISPlayer Video Upload is a feature in HISPlayer SDK for Unity to upload and hos
 
 HISPlayer Video Upload feature is available from HISPlayer SDK **v.4.0.0** and above.
 
+We can help you with the full end-to-end delivery and playback.
+
 ## Requirements
 
 * HISPlayer SDK v.4.0.0 and above
