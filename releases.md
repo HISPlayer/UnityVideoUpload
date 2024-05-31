@@ -1,5 +1,9 @@
 # HISPlayer Video Upload Release Notes
 
+### Version 4.2.0
+##### May 31, 2024
+- [**Improvement**] Optimized large video file upload.
+
 ### Version 4.1.0
 ##### May 21, 2024
 - [**Added**] HISPlayer Dashboard integration.
