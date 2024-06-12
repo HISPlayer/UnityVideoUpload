@@ -33,8 +33,9 @@ At the upper side of the Unity screen, open the window **Tools > HISPlayer > Upl
 It will open the HISPlayer Video Upload configuration window.
 
 <p align="center">
-<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/041506fb-dc64-4bb0-9bf4-33512d6613d9">
+<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/67526e63-dcc2-4699-86f7-3424beba97cc">
 </p>
+
 
 ### HISPlayer Dashboard
 This button will direct you to the main HISPlayer Dashboard webpage, or you can open https://dashboard.hisplayer.com/ with your browser. If you have not created an account yet, please create a new account on the HISPlayer Dashboard webpage by clicking **Sign up**. It is mandatory to create an account before using HISPlayer Video Upload feature.
@@ -59,7 +60,7 @@ Choose the streaming protocol **HLS** or **DASH** by selecting it from the dropd
 * Supported platforms for DASH : Android, WebGL, Windows.
 
 <p align="center">
-<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/8a3ca8c8-d1ed-479f-b48b-725edd284e95">
+<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/e96916ab-b81e-4176-ad82-fb52cb62172f">
 </p>
 
 ### Upload Video
@@ -79,7 +80,7 @@ The progress bar indicates the overall video uploading, transcoding and publishi
 After **Upload successful** message has appeared, you will find the generated stream URL in the **Generated Stream URL** field or in the Unity editor console. 
 
 <p align="center">
-<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/495e2435-6e6e-405b-839c-95d7b698d647">
+<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/870bd298-0a33-417c-af55-39673d15923e">
 </p>
 
 Click the **Copy** button to copy the URL to the clipboard. 
@@ -130,4 +131,4 @@ After sign in, you can check all the videos that have been uploaded. You can cli
 
 Please refer to the following video guide to use HISPlayer Video Upload
 
-[![Watch the video](https://img.youtube.com/vi/RcpR1Yx1DzA/sddefault.jpg)](https://youtu.be/RcpR1Yx1DzA)
+[![Watch the video](https://img.youtube.com/vi/POzM5U31tzc/sddefault.jpg)](https://youtu.be/POzM5U31tzc)
