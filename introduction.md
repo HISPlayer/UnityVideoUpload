@@ -15,4 +15,3 @@ You will find here a video showing how it works:
 * HISPlayer Sample (optional)
 
 * Video file
-  * Size limit: 500MB
