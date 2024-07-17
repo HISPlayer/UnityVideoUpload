@@ -22,4 +22,4 @@ HISPlayer Video Upload is a feature in HISPlayer SDK for Unity to upload and hos
 
 Related Keywords
 
-<sub><sub>Online Video Platforms, OVP, Streaming Video Platform, Video on Demand, Upload Video Online, Video hosting platform, Video hosting, Simple Storage Service, Cloud storage, Unity video streaming, video transcoding, MediaConvert, YouTube, Vimeo</sub><sub>
+<sub><sub>Online Video Platforms, OVP, Streaming Video Platform, Video on Demand, Upload Video Online, Video hosting platform, Video hosting, Simple Storage Service, Cloud storage, Unity video streaming, video transcoding, MediaConvert</sub><sub>
