@@ -1,5 +1,9 @@
 # HISPlayer Video Upload Release Notes
 
+### Version 4.3.0
+##### August 8, 2024
+- [**Improvement**] Removed 500MB video size restriction message.
+
 ### Version 4.2.0
 ##### May 31, 2024
 - [**Improvement**] Optimized large video file upload.
