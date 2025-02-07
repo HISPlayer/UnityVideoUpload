@@ -33,9 +33,8 @@ At the upper side of the Unity screen, open the window **Tools > HISPlayer > Upl
 It will open the HISPlayer Video Upload configuration window.
 
 <p align="center">
-<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/67526e63-dcc2-4699-86f7-3424beba97cc">
+<img width="317" alt="NewView" src="https://github.com/user-attachments/assets/f1473ce3-eb4b-469b-a8af-80fc2a3a5628" />
 </p>
-
 
 ### HISPlayer Dashboard
 This button will direct you to the main HISPlayer Dashboard webpage, or you can open https://dashboard.hisplayer.com/ with your browser. If you have not created an account yet, please create a new account on the HISPlayer Dashboard webpage by clicking **Sign up**. It is mandatory to create an account before using HISPlayer Video Upload feature.
@@ -53,18 +52,8 @@ If invalid password is inputted, it will throw an error.
 ### Video Title
 The title of the video that you will upload. You may input any text.
 
-### Streaming Protocol
-
-Choose the streaming protocol **HLS** or **DASH** by selecting it from the dropdown menu. 
-* Supported platforms for HLS : Android, iOS, WebGL, Windows, macOS.
-* Supported platforms for DASH : Android, WebGL, Windows.
-
-<p align="center">
-<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/e96916ab-b81e-4176-ad82-fb52cb62172f">
-</p>
-
 ### Upload Video
-Click on the **Upload Video** button. It will open a window to select the video file that you wish to upload. 
+Click on the **Upload Video** button. It will open a window to select the video file that you wish to upload. MP4 and MOV formats are supported.
 
 <p align="center">
 <img width="650" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/b976d6cd-b555-418f-abb2-7145ef43ebcc">
@@ -75,15 +64,19 @@ The whole process will take some time, please wait until the **Upload successful
 You may check the status message in the **Status** field of the HISPlayer Upload Video Window, or in the Unity console. 
 The progress bar indicates the overall video uploading, transcoding and publishing progress percentage. 
 
-### Get the Stream URL
+### Get the Stream URLs
 
-After **Upload successful** message has appeared, you will find the generated stream URL in the **Generated Stream URL** field or in the Unity editor console. 
+After **Upload successful** message has appeared, you will find the generated stream URLs in the **Generated Stream URLs** fields or in the Unity editor console. 
 
 <p align="center">
-<img width="450" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/870bd298-0a33-417c-af55-39673d15923e">
+<img width="315" alt="NewView2" src="https://github.com/user-attachments/assets/19d95662-d603-4bd0-ada4-1079015af812" />
 </p>
 
-Click the **Copy** button to copy the URL to the clipboard. 
+**HLS** and **DASH** formats are available.
+**HLS** supports Android, iOS, WebGL, Windows and MacOS.
+**DASH** supports Android, WebGL and Windows.
+
+Click the **Copy** button to copy the URL to the clipboard.
 
 ## 3. Use the Stream URL
 
@@ -129,6 +122,7 @@ After sign in, you can check all the videos that have been uploaded. You can cli
 
 ## Video Guide
 
-Please refer to the following video guide to use HISPlayer Video Upload
+Please refer to the following video guide to use HISPlayer Video Upload: https://youtu.be/ROq3dN4QoLE
+
 
 [![Watch the video](https://img.youtube.com/vi/POzM5U31tzc/sddefault.jpg)](https://youtu.be/POzM5U31tzc)
