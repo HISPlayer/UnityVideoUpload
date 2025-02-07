@@ -123,8 +123,15 @@ After sign in, you can check all the videos that have been uploaded. You can cli
 ## Video Guide
 
 Please refer to the following video guide to use HISPlayer Video Upload: https://youtu.be/ROq3dN4QoLE
-![image](https://github.com/user-attachments/assets/f81bdc34-9c6c-4c8d-a8ad-9fb2c096e592)
 
 Test one: [![YouTube](https://github.com/user-attachments/assets/f81bdc34-9c6c-4c8d-a8ad-9fb2c096e592) HISPlayer Video Upload from Unity Editor](https://youtu.be/ROq3dN4QoLE)
+
+Test two:
+
+<a href="https://youtu.be/ROq3dN4QoLE">
+    <img src="https://github.com/user-attachments/assets/f81bdc34-9c6c-4c8d-a8ad-9fb2c096e592" alt="YouTube" width="100" height="100">
+    HISPlayer Video Upload from Unity Editor
+</a>
+
 
 [![Watch the video](https://img.youtube.com/vi/POzM5U31tzc/sddefault.jpg)](https://youtu.be/POzM5U31tzc)
