@@ -6,7 +6,7 @@ HISPlayer Video Upload feature is available from HISPlayer SDK **v.4.0.0** and a
 
 You will find here a video showing how it works:
 
-[![Watch the video](https://img.youtube.com/vi/POzM5U31tzc/sddefault.jpg)](https://youtu.be/POzM5U31tzc)
+[![Watch the video](https://img.youtube.com/vi/ROq3dN4QoLE/sddefault.jpg)](https://youtu.be/ROq3dN4QoLE)
 
 ## Requirements
 
