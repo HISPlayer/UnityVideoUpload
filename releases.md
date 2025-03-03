@@ -1,5 +1,10 @@
 # HISPlayer Video Upload Release Notes
 
+### Version 4.7.0
+##### March 3, 2025
+- [**Added**] Both generated HLS and DASH Manifest URLs.
+- [**Added**] Supported video formats.
+
 ### Version 4.3.0
 ##### August 8, 2024
 - [**Improvement**] Removed 500MB video size restriction message.
