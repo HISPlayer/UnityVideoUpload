@@ -1,6 +1,6 @@
 # HISPlayer Video Upload
 
-HISPlayer Video Upload is a feature in HISPlayer Unity SDK to upload and host a local video file to a server and generate a HLS/DASH streaming URL. You can play all these streaming links using HISPlayer Unity SDK into Unity. 
+HISPlayer Video Upload is a feature of HISPlayer Unity SDK to upload and host a local video file to a server and generate a HLS/DASH streaming URL. You can play all these streaming links using our Unity SDK into Unity. 
 
 <p>
 
