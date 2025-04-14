@@ -116,7 +116,7 @@ Input your email and password and click **Sign in**.
 After sign in, you can check all the videos that have been uploaded. You can click on the video **ID** to check the generated HLS and DASH URLs and the video stream preview.
 
 <p align="center">
-<img width="100%" src="https://github.com/HISPlayer/UnityVideoUpload/assets/32887298/8ec09f7c-c318-42bc-882c-9c7fdca7ccb0">
+<img width="100%" src="https://github.com/user-attachments/assets/560a93b8-6454-4713-850f-fcca7ae7760e">
 </p>
 
 
