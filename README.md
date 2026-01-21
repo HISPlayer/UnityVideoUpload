@@ -10,7 +10,7 @@ HISPlayer Video Upload is a feature of HISPlayer Unity SDK to upload and host a 
 
 ### Steps to use:
 
-1. Create a [**FREE account**](https://dashboard.hisplayer.com/signup) to upload and host your videos there. 
+1. Open a [**FREE account**](https://dashboard.hisplayer.com/signup) to upload and host your videos there. 
 2. Import **[HISPlayer Unity SDK](https://hisplayer.com/unity-player-sdk/)** into Unity Editor and start playing your videos in your Unity apps. 
 
 <br>
